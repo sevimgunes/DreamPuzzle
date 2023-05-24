@@ -1,0 +1,130 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-63
+12-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:20-60
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:3-79
+13-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:4:20-76
+14
+15    <uses-feature android:glEsVersion="0x00030000" />
+15-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:3-52
+15-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:20:17-49
+16    <uses-feature
+16-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-91
+17        android:name="android.hardware.vulkan.version"
+17-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-63
+18        android:required="false" />
+18-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:64-88
+19
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-65
+20-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:20-62
+21
+22    <uses-feature
+22-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-88
+23        android:name="android.hardware.touchscreen"
+23-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-60
+24        android:required="false" />
+24-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:61-85
+25    <uses-feature
+25-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-99
+26        android:name="android.hardware.touchscreen.multitouch"
+26-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-71
+27        android:required="false" />
+27-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:72-96
+28    <uses-feature
+28-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-108
+29        android:name="android.hardware.touchscreen.multitouch.distinct"
+29-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-80
+30        android:required="false" />
+30-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:81-105
+31
+32    <application android:extractNativeLibs="true" >
+32-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:3-19:17
+32-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:5:16-48
+33        <activity
+33-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:5-13:16
+34            android:name="com.unity3d.player.UnityPlayerActivity"
+34-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:15-68
+35            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+35-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:180-361
+36            android:hardwareAccelerated="false"
+36-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:397-432
+37            android:launchMode="singleTask"
+37-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:148-179
+38            android:resizeableActivity="false"
+38-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:362-396
+39            android:screenOrientation="fullUser"
+39-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:111-147
+40            android:theme="@style/UnityThemeSelector" >
+40-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:6:69-110
+41            <intent-filter>
+41-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:7-10:23
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:9-61
+42-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:17-58
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:9-69
+44-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:19-66
+45            </intent-filter>
+46
+47            <meta-data
+47-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:7-82
+48                android:name="unityplayer.UnityActivity"
+48-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:18-58
+49                android:value="true" />
+49-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:11:59-79
+50            <meta-data
+50-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-78
+51                android:name="android.notch_support"
+51-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-54
+52                android:value="true" />
+52-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:55-75
+53        </activity>
+54
+55        <meta-data
+55-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-69
+56            android:name="unity.splash-mode"
+56-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:16-48
+57            android:value="0" />
+57-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:49-66
+58        <meta-data
+58-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:5-74
+59            android:name="unity.splash-enable"
+59-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:16-50
+60            android:value="True" />
+60-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:15:51-71
+61        <meta-data
+61-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-78
+62            android:name="unity.launch-fullscreen"
+62-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-54
+63            android:value="True" />
+63-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:55-75
+64        <meta-data
+64-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-84
+65            android:name="unity.allow-resizable-window"
+65-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-59
+66            android:value="False" />
+66-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:60-81
+67        <meta-data
+67-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-81
+68            android:name="notch.config"
+68-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-43
+69            android:value="portrait|landscape" />
+69-->C:\Users\Oguzhan\Desktop\Desktopv2\PuzzleGame3D\PuzzleGame3D\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:44-78
+70    </application>
+71
+72</manifest>
